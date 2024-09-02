@@ -15,7 +15,7 @@ This project serves as an introduction to the fundamentals of machine learning. 
 
 
 ### Code
-'''
+```
 import pandas as pd
 iowa_file_path = '../input/home-data-for-ml-course/train.csv'
 home_data = pd.read_csv(iowa_file_path)
@@ -59,6 +59,6 @@ iowa_model.fit(X,y)
 predictions = iowa_model.predict(X)
 print(predictions)
 
-'''
+```
 
 
