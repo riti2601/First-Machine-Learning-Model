@@ -13,7 +13,6 @@ This project serves as an introduction to the fundamentals of machine learning. 
 - **Model Evaluation:** Assess the model's performance using metrics like accuracy, precision, recall, and F1-score.
 - **Documentation:** Clear and concise documentation to guide beginners through the process of building a machine learning model.
 
-
 ### Code
 ```
 import pandas as pd
@@ -46,7 +45,7 @@ print(X.describe())
 # print the top few lines
 print(X.head())
 
-# Step 3: Specify and Fit Model
+# Step 3: Specify and Fit Model 
 from sklearn.tree import DecisionTreeRegressor
 #specify the model. 
 #For model reproducibility, set a numeric value for random_state when specifying the model
