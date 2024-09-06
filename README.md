@@ -59,5 +59,3 @@ predictions = iowa_model.predict(X)
 print(predictions)
 
 ```
-
-
